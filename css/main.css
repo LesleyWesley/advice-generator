@@ -1,0 +1,29 @@
+/*Variables */
+
+:root {
+    --clr-quote: 206, 227, 233;
+    --clr-accent: 82, 255, 168;
+    /*--clr-card-bg: 78, 93, 115;*/
+    --clr-card-bg: 50, 58, 73;
+    --clr-body-bg: 31, 38, 50;
+}
+
+/* Base Styles */
+
+body {
+  background-color: rgb(var(--clr-body-bg));
+  color: rgb(var(--clr-quote));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+/*Card Styling - Mobile */
